@@ -31,3 +31,9 @@
 .jumbotron .container a.btn {
     padding: .375rem .98rem;
 }
+
+.jumbotron .btn-primary {
+    color: #FFF!important;
+    background-color: #DA4453;
+    border-color: #DA4453;
+}
