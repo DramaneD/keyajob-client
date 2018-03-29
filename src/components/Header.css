@@ -29,7 +29,8 @@
 }
 
 .jumbotron .container a.btn {
-    padding: .375rem .98rem;
+    padding: .375rem 2rem;
+    border-radius: 2rem;
 }
 
 .jumbotron .btn-primary {

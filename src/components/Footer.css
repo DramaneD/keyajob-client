@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background: #3A3F60;
+  color: #FFF;
+  padding: 1.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer p a:hover, .footer p a:active, .footer p a:focus {
+  text-decoration: underline;
+}
+
+.footer ul li {
+  margin: 0 0.5rem;
+}
+
+.footer ul li a {
+  opacity: 0.5;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}

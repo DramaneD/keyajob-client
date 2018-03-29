@@ -1,0 +1,8 @@
+.category-list a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.category-list a li:hover {
+  background: #D2D2D5;
+}

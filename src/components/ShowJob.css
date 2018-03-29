@@ -1,0 +1,169 @@
+.show-job {
+    background: #FFF;
+    margin-top: 1rem;
+    margin-bottom: 3em;
+}
+
+.show-job-header {
+    padding: 1.5rem 1.5rem;
+}
+
+.show-job span img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.show-job span h5 {
+    padding-top: .5rem;
+}
+
+.show-job span.button-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2rem;
+}
+
+.button-secondary {
+    position: relative;
+    background: #FFF;
+    border: 1px solid #e64959;
+    font-size: 1rem;
+    color: #e64959;
+    padding: 0.2rem 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+    overflow: hidden;
+}
+
+.button-secondary span {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+}
+
+.button-secondary::before {
+    content: '';
+    position: absolute;
+    background: #071017;
+    border: 50vh solid #b53a46;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    display: block;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.button-secondary:hover {
+    background: #e64959;
+    color: #FFF!important;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
+}
+
+.button-secondary:active::before,
+.button-secondary:focus::before {
+    transition: transform 1.12s ease, opacity 0.28s ease 0.364s;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+.button-secondary:focus {
+    outline: none;
+}
+
+button.button-secondary a {
+    text-decoration: none;
+    color: #181819;
+}
+
+.show-job span a i {
+    color: #e64959;
+    margin: .5rem .5rem 0 .5rem;
+}
+
+.show-job-header-title {
+    padding: .5rem;
+}
+
+.show-job-header-links {
+    padding: .5rem;
+}
+
+.show-job-hero ul li {
+    margin-right: 5px;
+}
+
+.show-job-hero h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.category {
+    padding: 3px 8px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background: #eaeaea;
+    color: white;
+    border-radius: 4px;
+    font-size: 80%;
+    width: 127px;
+    height: 25px;
+    text-align: center;
+}
+
+.category.Development {
+    background: #36B5EB;
+}
+
+.job-type {
+    padding: 3px 8px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background: #FFF;
+    color: #3A3F60;
+    border-radius: 4px;
+    border: 1px solid #D2D2D5;
+    font-size: 80%;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+}
+
+.job-type span i {
+    margin-right: 5px;
+}
+
+.tag {
+    padding: 3px 8px;
+    margin-bottom: 5px;
+    background: #D2D2D5;
+    color: #3A3F60;
+    border-radius: 4px;
+    font-size: 80%;
+    text-align: center;
+}
+
+.tag span i {
+    margin-right: 5px;
+}
+
+.job-content {
+    padding: 1rem 5rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .job-content {
+        padding: 1rem 1rem;
+    }
+}
+
+.job-content h4 {
+    color: #e64959;
+}

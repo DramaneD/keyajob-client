@@ -1,4 +1,5 @@
 import React from 'react';
+import   {Link} from 'react-router-dom';
 import './Header.css';
 
 const Header = props => {
@@ -10,8 +11,8 @@ const Header = props => {
 Connecting employer to right candidate and cadidate to job they want is our goal 
 at JobBoard .</p>
           <p>
-            <a className="btn btn-primary my-2" style={{marginRight: 5}}>Post A Job</a>
-            <a className="btn btn-outline-secondary my-2">Job Alert</a>
+            <Link to="/jobs/new" className="btn btn-primary my-2" style={{marginRight: 5}}>Post A Job</Link>
+            <Link to="" className="btn btn-outline-secondary my-2">Job Alert</Link>
           </p>
         </div>
       </section>

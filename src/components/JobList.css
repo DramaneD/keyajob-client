@@ -1,0 +1,20 @@
+.jobList {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.jobList a.btn {
+  padding: .375rem .98rem;
+  width: 90%;
+}
+
+.jobList .btn-primary {
+  color: #FFF!important;
+  background-color: #DA4453;
+  border-color: #DA4453;
+  border-radius: 187rem;
+}
+
+.jobList a.btn-primary:hover, .jobList a.btn-primary:active, .jobList a.btn-primary:focus {
+  background-color: #DA4453;
+}
