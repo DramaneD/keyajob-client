@@ -19,7 +19,7 @@ const Footer = props => {
             <Link to="/request/new"><a>Contact</a></Link>
           </p>
           <p><a href="">Terms & Conditions</a></p>
-          <p>© KeyaJob 2018</p>
+          <p>© KeyaJob 2018 - Dramane DOUMBIA</p>
         </div>
       </div>
     </div>
