@@ -1,12 +1,10 @@
-##KeyaJob 
+## KeyaJob 
 
 Keyajob is a job posting app that I'm working on in React.
 
 It is in the template stage for now.
 
-## Table of Contents
-
-###Stacks
+### Stacks
 - Api endpoints with Node, Express, MongoDB
 - react, Redux, Bootstrap, jQuery
 
