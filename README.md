@@ -6,5 +6,5 @@ It is in the template stage for now.
 
 ### Stacks
 - Api endpoints with Node, Express, MongoDB
-- react, Redux, Bootstrap, jQuery
+- React, Redux, Bootstrap, jQuery
 
